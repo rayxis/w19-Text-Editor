@@ -1,12 +1,38 @@
-# PWA Text Editor
+# Just Another Text Editor
 
 ## Description
 
+Just Another Text Editor (JATE) is a Progressive Web Application (PWA) offering an intuitive text editing experience
+utilizing your web browser. JATE is built on Node.js using webpack to keep it together in a clean package that will work
+on any device, making it highly accessible and portable.
+
 ## Usage
+
+To use JATE, navigate to the deployed URL on your web browser. All texts are automatically saved to your browser's local
+storage so you won't lose your work if you accidentally clost the application.
+
+To use JATE in offline mode, you'll need to visit the site at least once while you're online. This will allow your 
+browser to download and cache the necessary resources. After this initial visit, you'll be able to use JATE offline.
 
 ## Installation
 
+Being a PWA, JATE can be installed on your device and can be used like a traditional app. Follow these steps to install
+the app:
+
+For Desktop:
+
+1. Navigate to the deployed site on Google Chrome.
+2. Click on the three dot menu in the top right corner.
+3. Click 'Install JATE'.
+
+For Mobile:
+
+1. Navigate to the deployed site on Google Chrome.
+2. Click on the three dot menu in the top right corner.
+3. Scroll and click 'Add to Home Screen'.
+
 ## User Story
+
 ```text
 AS A developer
 I WANT to create notes or code snippets with or without an internet connection
@@ -14,6 +40,7 @@ SO THAT I can reliably retrieve them for later use
 ```
 
 # Acceptance Criteria
+
 ```text
 GIVEN a text editor web application
 WHEN I open my application in my editor
